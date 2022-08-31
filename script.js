@@ -1,4 +1,4 @@
-const inputTexto = document.querySelector(".input-texto");
+const inputTexto = document.querySelector(".form-control");
 const mensaje = document.querySelector(".mensaje");
 const btnCopy = document.querySelector(".copiar");
 btnCopy.style.display = "none"
@@ -8,6 +8,7 @@ btnCopy.style.display = "none"
 
 function btnEncriptar() {
     const textoEncriptado = encriptar(inputTexto.value)
+   
     mensaje.value = textoEncriptado
     mensaje.style.backgroundImage="none"
     inputTexto.value = ""
@@ -44,7 +45,7 @@ function btnDesencriptar() {
     const textoEncriptado = desencriptar(inputTexto.value)
     mensaje.value = textoEncriptado
     mensaje.style.backgroundImage="none"
-    
+
     inputTexto.value = ""  
 }
 

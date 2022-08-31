@@ -7,6 +7,7 @@
 body{
     background: #F3F5FC;
     background: linear-gradient(450deg,rgb(171, 171, 247),black);
+    padding: 2vh 2vh;
 }
 main{
     display: flex;
@@ -15,19 +16,20 @@ main{
     gap: 12px;
     color: black;
 }
+.input{
+    padding: 6vh 2vh;
+}
+
 .encriptar{
 
-flex-direction: row;
-
-padding: 24px;
-gap: 8px;
-width: 328px;
-height: 67px;
+width: 32vh;
+height: 6vh;
 background: #0A3871;
  border-radius: 24px;
  color: #FFFFFF;
  line-height: 19px;
 text-align: center;
+margin-top: 2vh;
     
     /* Inside auto layout */
     
@@ -39,8 +41,8 @@ text-align: center;
 .desencriptar{
 background: #D8DFE8;
 /* Dark blue/dark-blue-300 */
-width: 328px;
-height: 67px;
+width: 32vh;
+height: 6vh;
 border: 1px solid #0A3871;
 border-radius: 24px;
 order: 0;
@@ -50,10 +52,10 @@ flex-grow: 0;
     background-color: rgb(198, 213, 235);
 }
 .input-texto{
-width: 680px;
-height: 288px;
-left: 240px;
-top: 168px;
+width: 68vh;
+height: 28vh;
+left: 24vh;
+top: 16vh;
 font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
@@ -63,15 +65,16 @@ line-height: 150%;
 color: #0A3871;
 border-radius: 20px;
 border: none;
+
 }
 .mensaje {
-    height: 450px;
-    width: 400px;
+   
     background-image: url("imagenes/Muñeco.png");
     background-repeat: no-repeat;
     border: none;
     border-radius: 20px;
     text-align: center;
+    
   }
   
   .mensaje:focus {
@@ -79,14 +82,16 @@ border: none;
     outline: none;
   }
 .mensaje-box {
-    position: absolute;
-    left: 65%;
-    top: 60px;
-    width: 400px;
-    height: 800px;
+   
+    
+    top: 6vh;
+    width: auto;
+    height: auto;
     box-shadow: 0px 24px 32px -8px rgb(0 0 0 / 8%);
     border-radius: 20px;
     background-color: #ffffff;
+    margin-left: 1.5vh;
+    
   }
   
   .mensaje-box h3 {
@@ -101,14 +106,15 @@ border: none;
   .copiar {
     position: relative;
     margin-top: 20px;
-    margin-left: 35px;
     border-radius: 20px;
     border-radius: 20px;
     font-size: 24px;
     color: #0a3871;
     border: 1px solid #0a3871;
-    width: 328px;
-    height: 67px;
+    width: 32vh;
+    height: 6vh;
+    margin-bottom: 4vh;
+    margin-left: 9vh;
   }
   .copiar:hover{
     background-color: rgb(198, 213, 235);
